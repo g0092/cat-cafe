@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200;300;400&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#logo {
+  height: 120px;
+  width: 256px;
+}
+
+.topSection {
+  width: 100%;
+  align-items: center;
+  background-color: purple
+}
+
+.bodySection {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.bodySection2 {
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+
+#left {
+  background-color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #9C6657;
+  font-family: 'Pacifico';
+  color: #584343;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 35%; 
+  height: 500px; 
+  float: left;
+}
+
+#right {
+  background-color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #9C6657;
+  font-family: 'Pacifico';
+  color: #584343;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-left: 60%; 
+  height: 500px;
+}
+
+.homeSection {
+  padding: 15px 15px;
+  background-color: #FAF6F2;
+}
+
+.bottomSection {
+  padding: 20px;
+  width: 100%;
+}
+
+.navBar {
+  background-color: #FAF6F2;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerSection {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar a {
+  font-family: 'Bebas Neue';
+  color: #584343;
+  font-size: 28px;
+  margin: 20px 20px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: underline
+}
+
+.navBar a:hover {
+  background-color: #CAC7C7
+}
+
+
+body {
+  background-color: #FAF6F2;
+}
+
+input {
+  border-style: hidden;
+  border-radius: 10px;
+  height: 30px;
+  font-family: Pacifico;
+  color: #9C6657;
+  margin: 10px
+}
+
+select {
+  margin: 10px;
+  border-style: hidden;
+  border-radius: 10px;
+  height: 30px;
+  font-family: Pacifico;
+  color: #9C6657;
+}
+
+.searchSection {
+  padding: 20px 25px;
+}
+
+.white-search {
+  color: black;
+  height: 120px;
+}
+
+#footerPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sally {
+  margin: 20px;
+  width: 250px;
+  height: 300px;
+}
+
+iframe {
+  margin: 15px;
+}
+
+#for{
+  height:100%;
+  width:100%;
+  overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
