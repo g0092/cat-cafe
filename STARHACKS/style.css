@@ -141,3 +141,29 @@ iframe {
   width:100%;
   overflow:hidden; /* or overflow:auto; if you want scrollbars */
 }
+
+label {
+  font-family: Pacifico;
+  color: #9C6657;
+  font-size: 24px;
+}
+
+button {
+  border-style: hidden;
+  border-radius: 25px;
+  padding: 10px 24px;
+  font-family: Pacifico;
+  font-size: 20px;
+  background-color: #9C6657;
+  color: #DED8D8;
+}
+
+.accountSection {
+  border-radius: 20px;
+  background-color: #DED8D8;
+  margin: auto;
+  text-align: center;
+  width: 20%;
+  justify-content: center;
+  padding: 30px 30px;
+}
